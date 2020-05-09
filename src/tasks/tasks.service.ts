@@ -18,7 +18,7 @@ export class TasksService {
         
         const { status, search } = filterDto;
         let tasks = this.getAllTasks();
-
+        //TODO: avoiding loop repetition on tasks (filters)
         if (status) tasks = tasks.filter(task => task.status === status);
         if (search) tasks = tasks.filter(task => {
             return task.title.includes(search) || task.description.includes(search);
