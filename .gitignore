@@ -1,3 +1,6 @@
+# .env variables
+.env
+
 # Configs
 /src/config/typeorm.config.ts
 
