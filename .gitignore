@@ -2,7 +2,7 @@
 .env
 
 # Configs
-/src/config/typeorm.config.ts
+/config
 
 # compiled output
 /dist
