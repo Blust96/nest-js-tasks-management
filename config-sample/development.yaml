@@ -1,0 +1,8 @@
+db:
+    host: 'your_host'
+    username: 'your_username'
+    password: 'your_password'
+    synchronize: true or false
+
+jwt:
+    secret: 'your_secret'

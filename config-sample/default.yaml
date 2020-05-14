@@ -1,0 +1,10 @@
+server:
+    port: your_server_port
+
+db:
+    type: 'your_type'
+    port: your_db_port
+    database: 'your_database'
+
+jwt:
+    expiresIn: your_expiration
