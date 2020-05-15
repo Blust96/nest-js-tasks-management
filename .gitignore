@@ -4,6 +4,9 @@
 # Configs
 /config
 
+# Test sample
+src/example.spec.ts
+
 # compiled output
 /dist
 /node_modules
